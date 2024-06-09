@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/androids"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:background="@drawable/rounded_corner2"
+            android:src="@drawable/ai" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:gravity="center_vertical"
+            android:text="@string/title2"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="26dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Write Your Model Name..."
+            android:textStyle="bold" />
+
+
+
+
+
+        <Switch
+            android:id="@+id/simpleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Has Memory"
+            android:layout_centerHorizontal="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:textColor="@color/teal_200"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"/> <!--25sp displayed text size-->
+
+
+        <Switch
+            android:id="@+id/simpleSwitch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Greek Language"
+            android:layout_centerHorizontal="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:textColor="@color/teal_200"
+            android:gravity="center"
+            android:textSize="25sp"/> <!--25sp displayed text size-->
+        <!--25sp displayed text size-->
+        <Switch
+            android:id="@+id/simpleSwitch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:gravity="center"
+            android:text="Json File"
+            android:textColor="@color/teal_200"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/simpleSwitch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CSV File"
+            android:layout_centerHorizontal="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:textColor="@color/teal_200"
+            android:gravity="center"
+            android:textSize="25sp"/> <!--25sp displayed text size-->
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:hint="write prompt person name (if json file)" />
+
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="write anwser person name (if json file)"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:backgroundTint="@color/common_google_signin_btn_tint"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:text="SELECT FILE" />
+
+
+
+        <!-- You can add more views here if needed -->
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/button" />
+
+
+
+
+
+
+
+</LinearLayout>

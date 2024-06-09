@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendFile"
+    android:background="@drawable/wallpaper1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#DCDCDC"
+                android:layout_marginTop="40dp"
+                android:text="File Name"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/label2"
+                android:background="#DCDCDC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/label5"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/statistics"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Statistics"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label6"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label7"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:background="#DCDCDC"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/label9"
+                android:layout_width="match_parent"
+                android:background="#DCDCDC"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                android:max="100"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+            <TextView
+                android:id="@+id/label10"
+                android:background="#DCDCDC"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                android:max="100"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+            <TextView
+                android:id="@+id/label11"
+                android:background="#DCDCDC"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:text="-"
+                android:textSize="20dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:visibility="visible"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+
+            <TextView
+                android:id="@+id/labelsegment"
+                android:background="#DCDCDC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:text="no segment found"
+                android:textSize="20dp" />
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="fill_parent"
+                android:layout_height="295dp"
+                android:layout_marginTop="21dp"
+                android:background="#DCDCDC"
+                android:divider="#f00"
+                android:dividerHeight="1dp"
+                android:listSelector="#A8E5EDE5"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

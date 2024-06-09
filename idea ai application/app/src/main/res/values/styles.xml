@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Add this to your existing styles.xml file -->
+    <style name="BlueSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">#0000FF</item> <!-- Blue text color -->
+    </style>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="My Account" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/baseline_help_24"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/nav_menu"
+
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Menu" />
+
+    <item
+        android:id="@+id/nav_terms"
+
+        android:icon="@drawable/baseline_chrome_reader_mode_24"
+        android:title="Terms and Conditions" />
+
+    <item
+        android:id="@+id/nav_logout"
+
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Logout" />
+
+    </group>
+
+</menu>

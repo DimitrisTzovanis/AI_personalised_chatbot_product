@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title">IDEA AI</string>
+    <string name="names">Dimitris Tzovanis | Dimitris Karydis</string>
+	<string name="button_enter">Welcome</string>
+
+	<string name="route">Capture Route</string>
+
+	<string name="stoproute">Stop Capturing</string>
+
+	<string name="click_android">Click on the android</string>
+	<string name="changed_text">Text to be changed</string>
+
+	<string name="default_notification_channel_id">my_channel_id</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+	<string name="title2">IDEA AI</string>
+
+	<string name="title3">IDEA AI PROFILE</string>
+
+	<string name="choice1">Train Your Own AI</string>
+
+	<string name="choice2">Talk with your AI</string>
+
+	<string name="button">Send</string>
+
+	<string name="app_name">IDEA AI</string>
+	<string name="nav_open">Open Navigation Drawer</string>
+	<string name="nav_close">Close Navigation Drawer</string>
+
+	<string name="terms1">Effective Date: [30/5/2024]</string>
+	<string name="terms2">Welcome to IDEA AI. These Terms and Conditions ("Terms") govern your use of the IDEA AI application, developed by [IDEA AI LTD] ("the Company"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.</string>
+	<string name="terms3">1. Introduction</string>
+	<string name="terms4">IDEA AI is an Android application that allows users to send their personal conversation data to a server. This data is used to train a language model that can engage in human-like conversations. We are committed to protecting your data and ensuring your privacy.</string>
+	<string name="terms5">2. Data Collection and Use</string>
+	<string name="terms6">a. Data Submission: By using the App, you consent to the collection and transmission of your personal conversation data to our servers. This data is essential for training the language model.</string>
+	<string name="terms7">b. Purpose: The primary purpose of collecting your data is to improve and customize the language model, enabling it to engage in more natural and personalized conversations with you.</string>
+	<string name="terms8">c. Data Protection: All data transmitted to our servers is encrypted and stored securely. We implement industry-standard security measures to protect your data from unauthorized access, alteration, disclosure, or destruction.</string>
+	<string name="terms9">3. User Privacy</string>
+	<string name="terms10">a. Anonymity: While using the App, your data is anonymized to ensure that it cannot be linked back to you personally.</string>
+	<string name="terms11">b. Data Access: Only authorized personnel within the Company have access to your data for the purpose of model training and improvement.</string>
+	<string name="terms12">c. Third-Party Access: We do not share, sell, or rent your data to any third parties without your explicit consent, except as required by law.</string>
+	<string name="terms13">4. User Responsibilities</string>
+	<string name="terms14">a. Accurate Information: You agree to provide accurate and complete information when using the App. Do not submit data that is false, misleading, or harmful.</string>
+	<string name="terms15">b. Legal Compliance: You agree to use the App in compliance with all applicable laws and regulations. Do not use the App for any unlawful or prohibited activities.</string>
+	<string name="terms16">5. Intellectual Property</string>
+	<string name="terms17">a. Ownership: The Company retains all rights, title, and interest in and to the App, including but not limited to the software, design, and content.</string>
+	<string name="terms18">b. License: Subject to your compliance with these Terms, the Company grants you a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes.</string>
+	<string name="terms19">6. Termination</string>
+	<string name="terms20">a. Termination by User: You may stop using the App at any time and uninstall it from your device.</string>
+	<string name="terms21">b. Termination by Company: The Company reserves the right to suspend or terminate your access to the App at any time, with or without notice, for any reason, including but not limited to a violation of these Terms.</string>
+	<string name="terms22">7. Disclaimer of Warranties</string>
+	<string name="terms23">The App is provided on an "as-is" and "as-available" basis. The Company makes no warranties, express or implied, regarding the App, including but not limited to its reliability, accuracy, or fitness for a particular purpose.</string>
+	<string name="terms24">8. Limitation of Liability</string>
+	<string name="terms25">To the fullest extent permitted by law, the Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the App.</string>
+	<string name="terms26">9. Governing Law</string>
+	<string name="terms27">These Terms shall be governed by and construed in accordance with the laws of [Greece/Athens], without regard to its conflict of law principles.</string>
+	<string name="terms28">10. Changes to Terms</string>
+	<string name="terms29">The Company reserves the right to modify these Terms at any time. Any changes will be effective immediately upon posting the updated Terms in the App. Your continued use of the App after such changes constitutes your acceptance of the new Terms.</string>
+	<string name="terms30">11. Contact Information</string>
+	<string name="terms31">If you have any questions or concerns about these Terms or the App, please contact us at [ideaai.com/contact].</string>
+	<string name="terms32">By using the IDEA AI application, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</string>
+
+
+</resources>
