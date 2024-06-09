@@ -10,5 +10,5 @@
 - models: this folder contains all the created AI models (we havent included any as the model files are too large), and a python script which is a multithreaded python server that connects only with the previously mentioned java server. It supports model creation on data that the user sent (finetuning), and model exectuion on user prompts
   
 Login info:
-User1
-Pass1
+- User1
+- Pass1
